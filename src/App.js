@@ -20,12 +20,12 @@ state = { loggedIn: null };
 // Life cycle method to init the firebase
 componentWillMount() {
 firebase.initializeApp({
-apiKey: "AIzaSyDV-EREF0SeH1iSM2DYNsaCpzjZayCGWNo",
-authDomain: "rnapp-auth-class-mad.firebaseapp.com",
-databaseURL: "https://rnapp-auth-class-mad.firebaseio.com",
-projectId: "rnapp-auth-class-mad",
-storageBucket: "rnapp-auth-class-mad.appspot.com",
-messagingSenderId: "561918213506"
+    apiKey: "AIzaSyBMMOJXeaxE-0cCdfblSSPDwTms1s0KGpM",
+    authDomain: "rnapp-auth-class-tayyab.firebaseapp.com",
+    databaseURL: "https://rnapp-auth-class-tayyab.firebaseio.com",
+    projectId: "rnapp-auth-class-tayyab",
+    storageBucket: "rnapp-auth-class-tayyab.appspot.com",
+    messagingSenderId: "586672115417"
 });
 
 //Handle the Application when it's logged in or logged out
